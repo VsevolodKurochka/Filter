@@ -1,0 +1,22 @@
+.list-group-item.list-group-item_flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.list-group-item_flex span{
+	display: inline-block;
+	line-height: 1;
+}
+.material-icons{
+	cursor: pointer;
+	transition: all ease 0.5s;
+}
+.material-icons:hover{
+	color: #007bff;
+}
