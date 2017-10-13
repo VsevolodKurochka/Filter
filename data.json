@@ -1,0 +1,40 @@
+{
+	"items": [
+		{
+			"name": "Матрас Джамп",
+			"image": "img/test1.png",
+			"available": "+",
+			"type": "Независимая пружина",
+			"load_for_one_person": "120",
+			"weight": "9.8",
+			"hardness": "Жесткий",
+			"garant": "2",
+			"new_price": "2500",
+			"old_price": "3250"
+		},
+		{
+			"name": "Матрас Иван",
+			"image": "img/test1.png",
+			"available": "-",
+			"type": "Зависимая пружина",
+			"load": "10",
+			"weight": "1",
+			"hardness": "Упругая",
+			"garant": "3",
+			"new_price": "12500",
+			"old_price": "9250"
+		},
+		{
+			"name": "Матрас Ваня",
+			"image": "img/test1.png",
+			"available": "+",
+			"type": "Независимая пружина",
+			"load": "50",
+			"weight": "19.8",
+			"hardness": "Мягкая",
+			"garant": "5",
+			"new_price": "7000",
+			"old_price": "5050"
+		}
+	]
+}
