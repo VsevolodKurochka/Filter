@@ -34,12 +34,33 @@
 .paper-list{
 	text-align: left;
 }
-.paper p {
-  color: #A0A6AB;
-  font-weight: 400;
-  font-size: .9rem;
-  line-height: 1.25rem;
+.paper-footer p{
+	margin-bottom: 5px;
+}
+.paper-price:not(:last-child){
+	margin-right: 15px;
+}
+.paper-price_new{
+	font-size: 20px;
 }
 .tab-pane{
-	padding-top: 15px;
+	padding: 15px;
+}
+.text-through{
+	text-decoration: line-through;
+}
+
+.filter {
+	padding: 15px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.filter-title{
+	font-size: 15px;
+}
+.filter-select{
+  width: 100%;
+}
+.filter-select:not(:last-child){
+	margin-right: 15px;
 }
